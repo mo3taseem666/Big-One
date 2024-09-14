@@ -1,24 +1,28 @@
-import { createContext, useState, useContext } from 'react';
-import PropTypes from 'prop-types'; // Import PropTypes
+import React, { createContext, useState, useContext } from "react";
+import PropTypes from "prop-types";
 
-// Create the context
-const SharedStateContext = createContext();
+const MyContext = createContext();
 
-// Custom hook to use the context
-export const useSharedState = () => useContext(SharedStateContext);
+export const MyProvider = ({ children }) => {
+  /////////////////
+  const [state, setState] = useState("Hii");
+  /////////////////
 
-// Provider component
-export const SharedStateProvider = ({ children }) => {
-  const [a, setA] = useState(); // Declare state
-
-  return (
-    <SharedStateContext.Provider value={{ a, setA }}>
-      {children}
-    </SharedStateContext.Provider>
-  );
+  return <MyContext.Provider value={{ state, setState }}>{children}</MyContext.Provider>;
 };
 
-// Define prop types
-SharedStateProvider.propTypes = {
-  children: PropTypes.node.isRequired, // Validate that 'children' is a valid React node and is required
+MyProvider.propTypes = {
+  children: PropTypes.node.isRequired,
 };
+
+export const useMyProvider = () => {
+  const context = useContext(MyContext);
+
+  if (!context) {
+    throw new Error("useMyProvider must be used within a MyProvider");
+  }
+
+  return context;
+};
+
+export { MyContext };
