@@ -45,3 +45,18 @@
   src: url('./assets/Fonts/static/Montserrat-Italic.ttf') format('woff'),
     url('./assets/Fonts/static/Montserrat-Italic.ttf') format('woff2');
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+
+/* Hide scrollbar in WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
