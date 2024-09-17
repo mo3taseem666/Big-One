@@ -10,7 +10,7 @@ export default function NewsDiv({ src, title, details, days }) {
           <p className="text-[#888] text-sm">{details}</p>
         </div>
       </div>
-      <p className="py-1 text-xs font-medium px-3 rounded-md bg-gray-200 ">
+      <p className="py-1 text-center text-xs font-medium px-3 rounded-md bg-gray-200 ">
         {days} Days Ago
       </p>
     </div>
