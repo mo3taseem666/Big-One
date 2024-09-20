@@ -17,7 +17,7 @@ export default function LastProjectProgress() {
           />
         ))}
       </div>
-      <img className='absolute bottom-0 w-[160px] right-0 opacity-10 ' src={rocket} alt="rocket" />
+      <img className='absolute xs:hidden bottom-0 w-[160px] right-0 opacity-10 ' src={rocket} alt="rocket" />
     </div>
   );
 }

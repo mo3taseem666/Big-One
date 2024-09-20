@@ -11,7 +11,7 @@ export default function TicketsStatistics() {
     <div className="p-5 pb-10 bg-white rounded-[10px]">
       <Header />
       <div className="flex gap-5 mt-5 flex-col">
-        <div className="flex gap-5">
+        <div className="flex xs:flex-col xs:items-center gap-5">
           <OneDiv
             icon={<AppsIcon sx={{ fontSize: '35px', color: 'orange' }} />}
             number={2500}
@@ -23,7 +23,7 @@ export default function TicketsStatistics() {
             text={'Pending'}
           />
         </div>
-        <div className="flex gap-5">
+        <div className="flex xs:flex-col xs:items-center gap-5">
           <OneDiv
             icon={<DoneAllIcon sx={{ fontSize: '35px', color: 'green' }} />}
             number={1900}

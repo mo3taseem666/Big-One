@@ -3,7 +3,7 @@ import React from 'react';
 export default function WelcomeDetails() {
   return (
     <div className="pt-14 ">
-      <div className="flex border-y py-5">
+      <div className="flex xs:flex-col xs:gap-5 xs:items-center border-y py-5">
         <div className="flex w-1/3 flex-col items-center gap-2">
           <p className="font-semibold">Moataseem</p>
           <p className="text-xs font-medium">Developer</p>

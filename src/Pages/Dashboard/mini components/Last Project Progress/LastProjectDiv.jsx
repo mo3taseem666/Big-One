@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function LastProjectDiv({ text, isLast, pulse }) {
   const classes =
-    'before:absolute before:w-[2px] before:h-6 before:bg-[#0075ff] before:-bottom-6';
+    'before:absolute before:w-[2px] before:h-6 before:bg-[#0075ff] xs:before:h-[22px] xs:before:-bottom-[22px] before:-bottom-6';
 
   return (
     <div className={`flex gap-3 relative items-center `}>
@@ -17,7 +17,7 @@ export default function LastProjectDiv({ text, isLast, pulse }) {
           } `}
         ></div>
       </div>
-      <p className="font-medium">{text}</p>
+      <p className="font-medium xs:text-sm">{text}</p>
     </div>
   );
 }

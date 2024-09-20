@@ -9,7 +9,7 @@ export default function YearlyTargets() {
   return (
     <div className="p-5 bg-white rounded-[10px] ">
       <Header />
-      <div className="flex flex-col mt-2 gap-5">
+      <div className="flex flex-col xs:mt-5 gap-5">
         <DivWithIcon
           icon={<AttachMoneyIcon className="text-blue-600" />}
           text={'Money'}

@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function NewsDiv({ src, title, details, days }) {
+export default function NewsDiv({ src, title, details, days,last }) {
   return (
-    <div className="flex justify-between items-center">
-      <div className="flex gap-4 items-center">
+    <div className={`flex xs:flex-col ${last ? '' : 'xs:border-b'} xs:pb-4 justify-between xs:gap-2 items-center`}>
+      <div className="flex xs:flex-col xs:text-center gap-4 items-center">
         <img className="w-[100px] rounded-md " src={src} alt="News" />
         <div>
           <p className="font-bold">{title}</p>

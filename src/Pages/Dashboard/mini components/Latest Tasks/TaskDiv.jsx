@@ -14,7 +14,7 @@ export default function TaskDiv({ title, details, deleted, notLast }) {
           {title}
         </p>
         <p
-          className={`text-gray-500 font-medium ${
+          className={`text-gray-500 xs:text-sm font-medium ${
             deleted ? 'line-through' : ''
           }`}
         >

@@ -12,7 +12,7 @@ export default function DivWithIcon({
   return (
     <div className="flex gap-3 items-center">
       <div
-        className={`${color} shrink-0 flex justify-center items-center size-20`}
+        className={`${color} shrink-0 flex justify-center items-center xs:size-16 size-20`}
       >
         {icon}
       </div>

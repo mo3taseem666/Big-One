@@ -29,6 +29,7 @@ export default function LatestNews() {
           days={7}
         />
         <NewsDiv
+          last={true}
           src={news4}
           title={'Added Payment Gateway'}
           details={'Many New Payment Gateways Added'}
