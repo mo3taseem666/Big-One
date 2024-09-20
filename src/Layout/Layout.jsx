@@ -13,7 +13,7 @@ export default function Layout() {
 
          <main className="w-[calc(100vw-224px)] xs:w-[calc(100vw-58px)] ml-auto ">
             <TopNav />
-            <div className="px-5 xs:px-2 py-7 bg-[#dce2e7]">
+            <div className="px-5 xs:px-2 xs:py-3 py-7 bg-[#dce2e7]">
                <Outlet />
             </div>
          </main>

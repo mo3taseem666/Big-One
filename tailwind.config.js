@@ -7,7 +7,13 @@ export default {
       'cus': {'min': '10px', 'max': '1187px'},
       'cus2': {'min': '1188px', 'max': '1666px'},
       'cus3': {'min': '1667px', 'max': '5000px'}, 
-      'cusT': {'min': '10px', 'max': '1310px'}, 
+      'cusT': {'min': '10px', 'max': '1310px'},
+      '532' : {'min': '10px', 'max': '532px'},
+      '960' : {'min': '10px', 'max': '960px'},
+      '1188' : {'min': '533px', 'max': '1188px'},
+      '1414' : {'min': '1189px', 'max': '1414px'},
+      '1636' : {'min': '1415px', 'max': '1636px'},
+      '1859' : {'min': '1637px', 'max': '1859px'},
     },
     extend: {
       fontFamily: {
