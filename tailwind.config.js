@@ -4,6 +4,7 @@ export default {
   theme: {
     screens: {
       'xs' : {'min': '10px', 'max': '767px'} ,
+      'sm' : {'min': '768px', 'max': '1187px'} ,
       'cus': {'min': '10px', 'max': '1187px'},
       'cus2': {'min': '1188px', 'max': '1666px'},
       'cus3': {'min': '1667px', 'max': '5000px'}, 
