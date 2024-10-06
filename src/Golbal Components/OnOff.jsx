@@ -7,7 +7,7 @@ export default function OnOff({ enabled }) {
     return (
         <div
             onClick={() => setOn(!on)}
-            className={`${on ? 'bg-[#0075ff]' : 'bg-[#ccc]'} rounded-full relative p-1 h-8 duration-200 w-[65px]`}
+            className={`${on ? 'bg-[#0075ff]' : 'bg-[#ccc]'} rounded-full cursor-pointer relative p-1 h-8 duration-200 w-[65px]`}
         >
             <div
                 style={{ left: on ? `${4}px` : `${37}px` }}
