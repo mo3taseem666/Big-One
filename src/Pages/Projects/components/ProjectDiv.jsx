@@ -13,7 +13,7 @@ export default function ProjectDiv({ el }) {
         <div className={mainDiv}>
             <ProjectHeader
                 name={el.name}
-                date={el.data}
+                date={el.date}
                 details={el.description}
             />
             <PicturesPart el={el} />
