@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { GlobalClasses } from '../../Golbal Components/GlobalClasses';
-import DivHeader from '../../Golbal Components/DivHeader';
-import CustomRadio from '../Settings/Mini Components/Backup Manager/CustomRadio';
-import StorageDiv from '../Settings/Mini Components/Backup Manager/StorageDiv';
+import { GlobalClasses } from '../../../Golbal Components/GlobalClasses';
+import DivHeader from '../../../Golbal Components/DivHeader';
+import CustomRadio from '../Mini Components/Backup Manager/CustomRadio';
+import StorageDiv from '../Mini Components/Backup Manager/StorageDiv';
 
 export default function BackupManager() {
     const { mainDiv } = GlobalClasses();

@@ -4,7 +4,7 @@ import GeneralInfo from './Components/GeneralInfo';
 import SecurityInfo from './Components/SecurityInfo';
 import SocialInfo from './Components/SocialInfo';
 import WidgetsControl from './Components/WidgetsControl';
-import BackupManager from '../Friends/BackupManager';
+import BackupManager from './Components/BackupManager';
 
 export default function Settings() {
     return (
