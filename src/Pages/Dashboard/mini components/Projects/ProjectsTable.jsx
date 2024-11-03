@@ -47,11 +47,10 @@ export default function ProjectsTable() {
                               key={idx}
                               src={el}
                               alt="team"
-                              className={`w-9 h-9 rounded-full border-2 border-white`}
+                              className={`w-9 h-9 hover:z-[99] cursor-pointer rounded-full border-2 border-white`}
                               style={{
                                  position: !idx ? 'static' : 'absolute',
                                  left: `${idx * 20}px`,
-                                 zIndex: idx,
                               }}
                            />
                         ))}
