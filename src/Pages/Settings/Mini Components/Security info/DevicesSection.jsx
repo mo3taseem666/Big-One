@@ -9,7 +9,7 @@ export default function DevicesSection() {
                     Check The Login Devices List
                 </p>
             </div>
-            <button className=" px-2 py-1 bg-gray-200 hover:bg-gray-300 duration-200 rounded-lg font-medium">
+            <button className="xs:text-xs px-2 py-1 bg-gray-200 hover:bg-gray-300 duration-200 rounded-lg font-medium">
                 Devices
             </button>
         </div>

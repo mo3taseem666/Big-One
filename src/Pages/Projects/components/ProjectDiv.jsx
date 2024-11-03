@@ -17,7 +17,7 @@ export default function ProjectDiv({ el }) {
                 details={el.description}
             />
             <PicturesPart el={el} />
-            <div className="py-3 flex gap-1 flex-row-reverse border-y">
+            <div className="py-3 overflow-auto flex gap-1 flex-row-reverse border-y">
                 {el.services.map((el, idx) => (
                     <GrayBtn key={idx} name={el} />
                 ))}

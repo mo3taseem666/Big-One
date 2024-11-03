@@ -13,7 +13,7 @@ export default function Email() {
                     placeholder="Email"
                     type="text"
                 />
-                <button className="shrink-0 text-blue-500 font-semibold">
+                <button className="shrink-0 xs:text-xs text-blue-500 font-semibold">
                     Change
                 </button>
             </div>
