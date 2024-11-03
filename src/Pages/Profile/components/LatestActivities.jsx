@@ -23,19 +23,19 @@ export default function LatestActivities() {
                     border={true}
                 />
                 <SingleActivity
-                    Label="Store"
+                    Label="Academy"
                     details="Bought The Mastering Python Course"
                     img={activity2}
                     border={true}
                 />
                 <SingleActivity
-                    Label="Store"
+                    Label="Badges"
                     details="Bought The Mastering Python Course"
                     img={activity3}
                     border={true}
                 />
                 <SingleActivity
-                    Label="Store"
+                    Label="Store 2"
                     details="Bought The Mastering Python Course"
                     img={activity1}
                     border={false}

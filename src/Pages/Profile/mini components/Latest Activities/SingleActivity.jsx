@@ -7,7 +7,7 @@ export default function SingleActivity({img,Label,details,border}) {
                 <img className='w-16 xs:w-12' src={img} alt="Activity" />
                 <div> 
                     <p>{Label}</p>
-                    <p className="text-[#888] xs:text-sm">{details}</p>
+                    <p className="text-[#888] xs:text-xs">{details}</p>
                 </div>
             </div>
             <div className="flex xs:text-xs flex-col items-end justify-between">

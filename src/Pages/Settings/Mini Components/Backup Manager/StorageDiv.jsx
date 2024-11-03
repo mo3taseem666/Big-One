@@ -8,10 +8,10 @@ export default function StorageDiv({ name, id, selected2, setSelected2 }) {
             className={`border-2 ${selected2 === id ? 'border-blue-600' : ''} rounded-lg w-full py-4`}
         >
             <div
-                className={`flex flex-col ${selected2 === id ? 'text-blue-600' : ''} font-medium items-center`}
+                className={`flex flex-col ${selected2 === id ? 'text-blue-600' : ''} font-medium gap-1 items-center`}
             >
                 <StorageIcon />
-                <p>{name}</p>
+                <p className='xs:text-xs'>{name}</p>
             </div>
         </div>
     );
