@@ -8,7 +8,7 @@ export default function WebsiteControl() {
             <p className='font-semibold'>Website Control</p>
             <p className='text-[#888] text-sm'>Open/Close Website And Type The Reason</p>
         </div>
-        <OnOff />
+        <OnOff enabled={true} />
     </div>
   )
 }
